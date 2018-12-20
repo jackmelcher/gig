@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+    <style type="text/css">
+        table 
+        {
+            width: 100%;
+            font: 17px Calibri;
+        }
+        table, th, td 
+        {
+            border: solid 1px #DDD;
+            border-collapse: collapse;
+            padding: 2px 3px;
+            text-align: center;
+        }
+        A{text-decoration:none}
+    </style>
+</head>
+<body>
+    <!-- <p>Data extracted from a JSON and converted to an HTML table.</p> -->
+    <h1>Game Industry Job Board</h1>
+    <!-- added from w3school example -->
+    <input type="text" id="inputCompany" onkeyup="myFunction(id, 0)" placeholder="Search for Company.." title="Type in a Company Name">
+    <input type="text" id="inputLocation" onkeyup="myFunction(id, 1)" placeholder="Search for Location.." title="Type in a Location">
+    <input type="text" id="inputRole" onkeyup="myFunction(id, 2)" placeholder="Search for Role.." title="Type in a Role">
+    <div id="showData">
+        <!-- Table is added here -->
+    </div>
+</body>
+
+<script>
+    $(document).ready(function () {
+        $.getJSON("GameIndustry.json", function (data) {
+
+            var arrItems = [];      // THE ARRAY TO STORE JSON ITEMS.
+            $.each(data, function (index, value) {
+                arrItems.push(value);       // PUSH THE VALUES INSIDE THE ARRAY.
+                console.log(index, value);
+            });
+
+            // EXTRACT KEY FOR TABLE HEADER.
+            var col = [];
+            for (var i = 0; i < arrItems.length; i++) {
+                for (var key in arrItems[i]) {
+                    console.log(key, arrItems[i], arrItems[i][key]);
+                    if (col.indexOf(key) === -1) {
+                        col.push(key);
+                    }
+                }
+            }
+            
+            // CREATE DYNAMIC TABLE.
+            var table = document.createElement("table");
+
+            //added by me
+            table.setAttribute("id", "myTable");
+
+            // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
+
+            var tr = table.insertRow(-1);                   // TABLE ROW.
+
+            for (var i = 0; i < col.length; i++) {
+                if(i==1){continue;}
+                var th = document.createElement("th");      // TABLE HEADER.
+                th.innerHTML = col[i];
+                tr.appendChild(th);
+            }
+
+            // ADD JSON DATA TO THE TABLE AS ROWS.
+            for (var i = 0; i < arrItems.length; i++) {
+
+                tr = table.insertRow(-1);
+
+                for (var j = 0; j < col.length; j++) {
+                    var tabCell = tr.insertCell(-1);
+                    if(j==0){   
+                        tabCell.innerHTML = "<a href=\"" + arrItems[i][col[1]] + "\">"+arrItems[i][col[0]]+"</a>";
+                        j++;
+                        //tabCell.innerHTML = "<a href=\"" + arrItems[i][col[j]].Link + "\">"+arrItems[i][col[j]].Name+"</a>";
+                    }
+                    else{
+                        tabCell.innerHTML = arrItems[i][col[j]];
+                    }
+                }
+            }
+
+            // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
+            var divContainer = document.getElementById("showData");
+            divContainer.innerHTML = "";
+            divContainer.appendChild(table);
+        });
+
+       
+    });
+    //added from w3school example, modified for intended function
+    function myFunction(inputID, colIndex) {
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById(inputID);
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myTable");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[colIndex];
+        if (td) {
+            txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+        } else {
+            tr[i].style.display = "none";
+        }
+        }       
+    }
+}
+</script>
+</html>
