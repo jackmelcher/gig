@@ -1,42 +1,186 @@
 [
-    {
-      "Company Name": "Activision (Beenox, Demonware, High Moon Studios, Infinity Ward, Raven, Sledgehammer Games, Toys for Bob, Treyarch, Vicarious Visions)",
-      "Link": "https://activision.referrals.selectminds.com/",
-      "Experience": "Intern, Entry, Mid, Senior",
-      "Roles": "Administration, Animation, Art, Audio/Sound, Business Development, Business Intelligence, Consumer Products, Customer Support, Design, Engineering, Finance/Accounting, Human Resources, Information and Technology, Legal, Manufacturing, Marketing, Production, Programming, Quality Assurance, Sales, Supply Chain",
-      "Type": "Publisher, Developer",
-      "Market": "PC, Console, Mobile"
-    },
-    {
-      "Company Name": "EA (BioWare, Criterion Games, DICE, EA Sports, Ghost Games, Maxis, Motive, Respawn, Capital Games, Mobile China, EA Sports Mobile, Firemonkeys, Industrial Toys, Mobile Japan, Mobile Korea, Pogo, PopCap, Red Crow, Scorpion, Sims, Slingshot Games, Track Twenty",
-      "Link": "https://www.ea.com/careers",
-      "Experience": "Intern, Entry, Mid, Senior",
-      "Roles": "Administrative, Analytics, Art, Audio, Competitive Gaming, Customer Experience, Database and Data Warehousing, Development Director, Facilities, Finance/Accounting, Game Design, Game Product Management, Human Resources, Information Technology, IT Infrastructure, Legal, Localization, Marketing, Operations, Player Network, Procurement, Producer, Quality Verification, Sales, Security, Software Development, Technical Writer, User Research",
-      "Type": "Publisher, Developer",
-      "Market": "PC, Console, Mobile"
-    },
-    {
-      "Company Name": "2K",
-      "Link": "https://www.2k.com/en-US/jobs/",
-      "Experience": "Intern, Entry, Mid, Senior",
-      "Roles": "Accounting & Financing, Administration, Analytics, Art/Animation, Audio/Sound Design, Corp Development, Customer Service/Tech Support, Engineering, Executive Management, Game Designer/Writer, Human Resources/Recruiting, Information Technology, Internal Audit, Internships, Legal, Licensing, Marketing, Motion Capture, Producer, Product Management, Public Relations/Community Mgmt., QA Testers/Localization, Sales, User Research",
-      "Type": "Publisher, Developer",
-      "Market": "PC, Console"
-    },
-    {
-      "Company Name": "Blizzard",
-      "Link": "https://careers.blizzard.com/en-us/openings",
-      "Experience": "Intern, Entry, Mid, Senior",
-      "Roles": "Art / Animation, Audio / Sound, Broadcast, Corporate Administration, Engineering, Esports, Game Design, Global Insights, Human Resources, Information Technology, Internships, Marketing / Sales, New Grad Roles, Operations, Production, Program Management, Public Relations, Quality Assurance, Security, UX / Visual Design",
-      "Type": "Publisher, Developer",
-      "Market": "PC, Console, Mobile"
-    },
-    {
-      "Company Name": "Jam City",
-      "Link": "https://www.jamcity.com/careers/",
-      "Experience": "Mid, Senior",
-      "Roles": "Accounting, Administration, Art, Engineering, Human Resources, Production, Quality Assurance",
-      "Type": "Developer",
-      "Market": "Mobile"
-    }
-   ]
+  {
+    "Company Name": "2K",
+    "Link": "https://www.2k.com/en-US/jobs/",
+    "Experience": "Intern, Entry, Mid, Senior",
+    "Roles": "Accounting & Financing, Administration, Analytics, Art/Animation, Audio/Sound Design, Corp Development, Customer Service/Tech Support, Engineering, Executive Management, Game Designer/Writer, Human Resources/Recruiting, Information Technology, Internal Audit, Internships, Legal, Licensing, Marketing, Motion Capture, Producer, Product Management, Public Relations/Community Mgmt., QA Testers/Localization, Sales, User Research",
+    "Type": "Publisher, Developer",
+    "Market": "PC, Console"
+  },
+  {
+    "Company Name": "343 Industries (Microsoft)",
+    "Link": "https://www.343industries.com/careers",
+    "Experience": "Mid, Senior",
+    "Roles": "Art, Design, Engineering, Production",
+    "Type": "",
+    "Market": ""
+  },
+  {
+    "Company Name": "Activision (Beenox, Demonware, High Moon Studios, Infinity Ward, Raven, Sledgehammer Games, Toys for Bob, Treyarch, Vicarious Visions)",
+    "Link": "https://activision.referrals.selectminds.com/",
+    "Experience": "Intern, Entry, Mid, Senior",
+    "Roles": "Administration, Animation, Art, Audio/Sound, Business Development, Business Intelligence, Consumer Products, Customer Support, Design, Engineering, Finance/Accounting, Human Resources, Information and Technology, Legal, Manufacturing, Marketing, Production, Programming, Quality Assurance, Sales, Supply Chain",
+    "Type": "Publisher, Developer",
+    "Market": "PC, Console, Mobile"
+  },
+  {
+    "Company Name": "Blizzard",
+    "Link": "https://careers.blizzard.com/en-us/openings",
+    "Experience": "Intern, Entry, Mid, Senior",
+    "Roles": "Art / Animation, Audio / Sound, Broadcast, Corporate Administration, Engineering, Esports, Game Design, Global Insights, Human Resources, Information Technology, Internships, Marketing / Sales, New Grad Roles, Operations, Production, Program Management, Public Relations, Quality Assurance, Security, UX / Visual Design",
+    "Type": "Publisher, Developer",
+    "Market": "PC, Console, Mobile"
+  },
+  {
+    "Company Name": "CAPCOM USA",
+    "Link": "https://uscareers-capcom.icims.com/jobs/search?ss=1",
+    "Experience": "Mid, Senior",
+    "Roles": "",
+    "Type": "Developer",
+    "Market": ""
+  },
+  {
+    "Company Name": "Compulsion Games (Microsoft)",
+    "Link": "https://compulsiongames.com/",
+    "Experience": "N/A",
+    "Roles": "N/A",
+    "Type": "N/A",
+    "Market": "N/A"
+  },
+  {
+    "Company Name": "Demiurge Studios (SEGA) ",
+    "Link": "https://www.demiurgestudios.com/careers",
+    "Experience": "Mid, Senior",
+    "Roles": "",
+    "Type": "Developer",
+    "Market": ""
+  },
+  {
+    "Company Name": "EA (BioWare, Criterion Games, DICE, EA Sports, Ghost Games, Maxis, Motive, Respawn, Capital Games, Mobile China, EA Sports Mobile, Firemonkeys, Industrial Toys, Mobile Japan, Mobile Korea, Pogo, PopCap, Red Crow, Scorpion, Sims, Slingshot Games, Track Twenty",
+    "Link": "https://www.ea.com/careers",
+    "Experience": "Intern, Entry, Mid, Senior",
+    "Roles": "Administrative, Analytics, Art, Audio, Competitive Gaming, Customer Experience, Database and Data Warehousing, Development Director, Facilities, Finance/Accounting, Game Design, Game Product Management, Human Resources, Information Technology, IT Infrastructure, Legal, Localization, Marketing, Operations, Player Network, Procurement, Producer, Quality Verification, Sales, Security, Software Development, Technical Writer, User Research",
+    "Type": "Publisher, Developer",
+    "Market": "PC, Console, Mobile"
+  },
+  {
+    "Company Name": "inXile Entertainment (Microsoft)",
+    "Link": "https://www.inxile-entertainment.com/careers",
+    "Experience": "Mid, Senior",
+    "Roles": "",
+    "Type": "Developer",
+    "Market": "PC, Console, Mobile"
+  },
+  {
+    "Company Name": "Jam City",
+    "Link": "https://www.jamcity.com/careers/",
+    "Experience": "Mid, Senior",
+    "Roles": "Accounting, Administration, Art, Engineering, Human Resources, Production, Quality Assurance",
+    "Type": "Developer",
+    "Market": "Mobile"
+  },
+  {
+    "Company Name": "Microsoft Studios & Xbox",
+    "Link": "https://careers.microsoft.com/us/en/search-results?keywords=gaming&rt=professional",
+    "Experience": "Intern, Entry, Mid, Senior",
+    "Roles": "",
+    "Type": "Console Maker, Publisher, Developer",
+    "Market": "PC, Console, Mobile"
+  },
+  {
+    "Company Name": "Mojang (Microsoft)",
+    "Link": "https://mojang.workable.com/",
+    "Experience": "Mid, Senior",
+    "Roles": "",
+    "Type": "Developer",
+    "Market": "PC, Console, Mobile"
+  },
+  {
+    "Company Name": "Ninja Theory (Microsoft)",
+    "Link": "https://ninjatheory.com/?page_id=27",
+    "Experience": "Intern, Entry, Mid, Senior",
+    "Roles": "",
+    "Type": "Developer",
+    "Market": "PC, Console"
+  },
+  {
+    "Company Name": "Nintendo of America",
+    "Link": "https://careers.nintendo.com/job-openings/",
+    "Experience": "Entry, Mid, Senior",
+    "Roles": "",
+    "Type": "Console Maker, Publisher, Developer",
+    "Market": ""
+  },
+  {
+    "Company Name": "Obsidian Entertainment (Microsoft)",
+    "Link": "https://www.obsidian.net/jobs",
+    "Experience": "Mid, Senior",
+    "Roles": "Engineering, Programming, UX Design",
+    "Type": "Developer",
+    "Market": "PC, Console"
+  },
+  {
+    "Company Name": "Playground Games (Microsoft)",
+    "Link": "https://www.playground-games.com/careers/",
+    "Experience": "Entry, Mid, Senior",
+    "Roles": "Art, Audio, Design, Engineering, Production ",
+    "Type": "Developer",
+    "Market": "PC, Console"
+  },
+  {
+    "Company Name": "Rare (Microsoft)",
+    "Link": "https://www.rare.co.uk/careers",
+    "Experience": "Mid, Senior",
+    "Roles": "Art, Community, Design, Engineering",
+    "Type": "Developer",
+    "Market": "PC, Console"
+  },
+  {
+    "Company Name": "SEGA (Europe Limited, Amplitude Studios, Sports Interactive, Hardlight, Creative Assembly, Relic)",
+    "Link": "http://careers.sega.co.uk/careers",
+    "Experience": "Intern, Entry, Mid, Senior",
+    "Roles": "",
+    "Type": "Former Console Maker, Publisher, Developer",
+    "Market": ""
+  },
+  {
+    "Company Name": "Sony Interactive Entertainment (Playstation)",
+    "Link": "https://www.playstation.com/en-us/corporate/about/careers/#careerlistings",
+    "Experience": "Intern, Mid, Senior",
+    "Roles": "Administrative Services, Business Intelligence, Content Acquisitions, Content Operations, Facilities, Game Development, Game Development Service Group, Hardware Engineering, Human Resources, Information Security, Information Technology, Intern, Legal, Marketing, Planning, Program Manager (PMO), Product Development, Public Relations, Research and Development, Sales, Service & Tech Support, Software Engineering, Supply Chain, Third Party Relations, User Experience/Design",
+    "Type": "Console Maker, Publisher, Developer",
+    "Market": "Console, Mobile"
+  },
+  {
+    "Company Name": "The Coalition (Microsoft)",
+    "Link": "https://thecoalitionstudio.com/#Join-Us",
+    "Experience": "Mid, Senior",
+    "Roles": "Art, Engineering",
+    "Type": "Developer",
+    "Market": "PC, Console"
+  },
+  {
+    "Company Name": "The Initiative (Microsoft)",
+    "Link": "https://initiativegaming.com/Home/CareerV2",
+    "Experience": "Senior",
+    "Roles": "Art, Engineering",
+    "Type": "Developer",
+    "Market": "TBD"
+  },
+  {
+    "Company Name": "Turn 10 Studios (Microsoft)",
+    "Link": "https://careers.microsoft.com/us/en/search-results?rt=professional&keywords=turn%2010%20studios",
+    "Experience": "",
+    "Roles": "",
+    "Type": "",
+    "Market": ""
+  },
+  {
+    "Company Name": "Undead Labs (Microsoft)",
+    "Link": "https://undeadlabs.com/jobs/",
+    "Experience": "",
+    "Roles": "",
+    "Type": "",
+    "Market": ""
+  }
+ ]
